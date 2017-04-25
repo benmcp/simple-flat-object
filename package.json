@@ -1,0 +1,33 @@
+{
+  "name": "flat-object",
+  "version": "0.0.1",
+  "description": "Flatten/Unflatten JS Objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "babel src/index.js --out-file lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmcp/flat-object.git"
+  },
+  "keywords": [
+    "json",
+    "object"
+  ],
+  "author": "Ben McPhail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benmcp/flat-object/issues"
+  },
+  "homepage": "https://github.com/benmcp/flat-object#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "object-depth": "^0.0.3"
+  }
+}
