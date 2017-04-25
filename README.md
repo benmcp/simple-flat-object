@@ -1,4 +1,4 @@
-Flat Object
+Simple Flat Object
 =========
 
 A small library that converts an object into a flat (depth=1) object. Useful if you need to change the values of all instances of a key with the same name.
@@ -10,7 +10,7 @@ A small library that converts an object into a flat (depth=1) object. Useful if 
 ## Usage
 
 ```
-import FlatObject from 'flat-object';
+import FlatObject from 'simple-flat-object';
 
 var data = {
   "foo": "bar",
