@@ -55,4 +55,8 @@ console.log(data);
 
 ## Tests
 
+### Unit
+
+Unit tests use the Mocha test framework with Chai assertions. To run the tests, execute the following command in the top-level application directory:
+
   `npm test`
