@@ -2,7 +2,7 @@
   "name": "simple-flat-object",
   "version": "0.0.1",
   "description": "Flatten/Unflatten JS Objects",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register",
     "build": "babel src/index.js --out-file lib/index.js"
