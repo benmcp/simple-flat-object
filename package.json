@@ -33,6 +33,8 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "chai": "^3.5.0",
     "mocha": "^4.0.1",
     "object-depth": "^0.0.3"
