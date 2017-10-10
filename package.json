@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
+    "mocha": "^4.0.1",
     "object-depth": "^0.0.3"
   }
 }
